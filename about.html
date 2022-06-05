@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="setQuestion()" class="bg">
+<!-- 
+    <div class="h1">
+
+        <h1>Quiz App</h1>
+    </div>
+
+
+    <div class="mainBox" id="quizBox">
+        <div class="header">
+            <h1 id="htmlQuestion">Question 1</h1>
+        </div>
+        <div class="body">
+            <ul>
+                <li onclick="checkAns(this)" class="htmlOptionList">option 1</li>
+                <li onclick="checkAns(this)" class="htmlOptionList">option 2</li>
+                <li onclick="checkAns(this)" class="htmlOptionList">option 3</li>
+                <li onclick="checkAns(this)" class="htmlOptionList">option 4</li>
+            </ul>
+        </div>
+
+        <div class="bottom">
+            <span id="countValue">1 / 7</span>
+            <button class="hide" id="nextQuestBtn" onclick="nextQuest()">NEXT</button>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="hide" id="resultValue">RESULT : </h1>
+    </div> -->
+ 
+
+
+    
+    <h2>QUIZ APP</h2>
+
+
+    <div class="mainBox" id="quizBox">
+
+
+        <div class="header">
+
+            <h1 id="htmlQuestion">QUESTION # 1</h1>
+
+        </div>
+
+        <div class="body">
+
+            <ul>
+                <li onclick="checkAns(this)" class="htmlOptionList">OPTION 1</li>
+                <li onclick="checkAns(this)" class="htmlOptionList">OPTION 2</li>
+                <li onclick="checkAns(this)" class="htmlOptionList">OPTION 3</li>
+                <li onclick="checkAns(this)" class="htmlOptionList">OPTION 4</li>
+            </ul>
+
+        </div>
+        <div class="bottom">
+            <span id="counterValue"> 1 / 7</span>
+            <button class="hide" id="nextQuesBtn" onclick="nextQes()">NEXT QUES</button>
+        </div>
+    </div>
+    <div>
+        <h1 class="hide" id="resultValue">RESULT : </h1>
+    </div>
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="app.js"></script>
+
+
+</html>

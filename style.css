@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100vh;
+}
+
+.form{
+    background-color: transparent;
+    color: #fff;
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    padding: 70px 20px;
+    transform:translate(-50% ,-50%);
+}
+.form h1{
+    margin: 0;
+    text-align: center;
+    padding: 0 0 20px;
+    font-weight: bold;
+}
+.form p{
+    font-weight: bold;
+}
+.form input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form input[type="text"],input[type="email"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px ;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.form button{
+    width: 50%;
+    color: #fff;
+    background-color: red;
+    border: none;
+    text-align: center;
+}
+.form button:hover{
+    background-color: lightcoral;
+    color: #fff;
+}
+.form ::placeholder{
+    color: lightblue;
+}
+
+
+/* --------------quiz app-------- */
+
+.bg{
+    background: #1a2a6c;
+    background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  
+    background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); 
+   
+}
+
+h2{
+    text-align: center;
+}
+.mainBox{
+    width: 60%;
+    margin: 10% auto;
+    border: 4px solid #d44a47;
+    padding: 10px;
+}
+
+.header{
+    width: 100%;
+}
+
+.body{
+    border-top: 3px solid #d44a47;
+    border-bottom: 3px solid #d44a47;
+}
+.body li{
+    margin: 12px 0;
+    list-style: none;
+    background-color:#d44a47;
+    padding: 10px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.bottom button{
+    padding: 8px;
+    border: none;
+    background-color: #d44a47;
+    color: #fff;
+}
+.bottom button:hover{
+    background-color: red;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+    text-align: center;
+}
+.disabled{
+    pointer-events: none;
+}
+.success{
+    background-color: green;
+}
+.wrong{
+    background-color: red;
+}
